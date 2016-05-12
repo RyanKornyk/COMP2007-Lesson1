@@ -22,84 +22,84 @@ namespace COMP2007_2016_Lesson1_C {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Firstnamelabel control.
+        /// FirstNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Firstnamelabel;
+        protected global::System.Web.UI.WebControls.Label FirstNameLabel;
         
         /// <summary>
-        /// Firstnametext control.
+        /// FirstNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Firstnametext;
+        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
         
         /// <summary>
-        /// lastnamelabel control.
+        /// LastNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lastnamelabel;
+        protected global::System.Web.UI.WebControls.Label LastNameLabel;
         
         /// <summary>
-        /// lastnametext control.
+        /// LastNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lastnametext;
+        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
         
         /// <summary>
-        /// agelabel control.
+        /// AgeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label agelabel;
+        protected global::System.Web.UI.WebControls.Label AgeLabel;
         
         /// <summary>
-        /// agetextbox control.
+        /// AgeTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox agetextbox;
+        protected global::System.Web.UI.WebControls.TextBox AgeTextBox;
         
         /// <summary>
-        /// submitbutton control.
+        /// SubmitButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submitbutton;
+        protected global::System.Web.UI.WebControls.Button SubmitButton;
         
         /// <summary>
-        /// fullname control.
+        /// FullNameLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label fullname;
+        protected global::System.Web.UI.WebControls.Label FullNameLabel;
         
         /// <summary>
-        /// fullnametext control.
+        /// FullNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox fullnametext;
+        protected global::System.Web.UI.WebControls.TextBox FullNameTextBox;
     }
 }

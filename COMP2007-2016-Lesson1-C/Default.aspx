@@ -49,23 +49,23 @@
                 <h1>User Profile</h1>
                 <form id="form1" runat="server">
                     <div class="form-group">
-                        <asp:Label CssClass="form-control" ID="Firstnamelabel" runat="server" Text="First Name"></asp:Label>
-                        <asp:TextBox CssClass="form-control" ID="Firstnametext" runat="server"></asp:TextBox>
+                        <asp:Label ID="FirstNameLabel" runat="server" Text="First Name"></asp:Label>
+                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <asp:Label CssClass="form-control" ID="lastnamelabel" runat="server" Text="Last Name"></asp:Label>
-                        <asp:TextBox CssClass="form-control" ID="lastnametext" runat="server"></asp:TextBox>
+                        <asp:Label ID="LastNameLabel" runat="server" Text="Last Name"></asp:Label>
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <asp:Label CssClass="form-control" ID="agelabel" runat="server" Text="Age"></asp:Label>
-                        <asp:TextBox CssClass="form-control" ID="agetextbox" runat="server"></asp:TextBox>
+                        <asp:Label ID="AgeLabel" runat="server" Text="Age"></asp:Label>
+                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true"></asp:TextBox>
                     </div>
+                    <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
+                    <br />
+                    <hr />
                     <div class="form-group">
-                        <asp:Button CssClass="form-control" ID="submitbutton" runat="server" Text="submit" OnClick="submitbutton_Click" />
-                    </div>
-                    <div class="form-group">
-                        <asp:Label CssClass="form-control" ID="fullname" runat="server" Text="Full Name"></asp:Label>
-                        <asp:TextBox CssClass="form-control" ID="fullnametext" runat="server"></asp:TextBox>
+                        <asp:Label ID="FullNameLabel" runat="server" Text="Full Name"></asp:Label>
+                        <asp:TextBox CssClass="form-control" ID="FullNameTextBox" runat="server"></asp:TextBox>
                     </div>
                 </form>
             </div>
