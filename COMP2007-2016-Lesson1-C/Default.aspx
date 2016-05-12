@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#"> Products</a></li>
-                    <li><a href="#"> Services</a></li>
-                    <li><a href="#"> About Us</a></li>
-                    <li><a href="#"> Contact Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
-                
+
                 <h1>User Profile</h1>
                 <form id="form1" runat="server">
                     <div class="form-group">
@@ -60,6 +60,10 @@
                     </div>
                     <div class="form-group">
                         <asp:Button CssClass="form-control" ID="submitbutton" runat="server" Text="submit" OnClick="submitbutton_Click" />
+                    </div>
+                    <div class="form-group">
+                        <asp:Label CssClass="form-control" ID="fullname" runat="server" Text="Full Name"></asp:Label>
+                        <asp:TextBox CssClass="form-control" ID="fullnametext" runat="server"></asp:TextBox>
                     </div>
                 </form>
             </div>
