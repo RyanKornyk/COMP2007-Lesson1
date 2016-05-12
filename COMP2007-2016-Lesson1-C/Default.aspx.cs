@@ -11,7 +11,7 @@ namespace COMP2007_2016_Lesson1_C
     {
         protected void submitbutton_Click(object sender, EventArgs e)
         {
-            fullnametext.Text = Firstnametext.Text + lastnametext.Text;
+            fullnametext.Text = Firstnametext.Text + " " +  lastnametext.Text;
         }
     }
 }
