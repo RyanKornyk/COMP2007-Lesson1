@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007_2016_Lesson1_C.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007_S2016_Lesson1C.Default" %>
 
 <!DOCTYPE html>
 
@@ -6,13 +6,14 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="content/bootstrap.min.css" rel="stylesheet" />
-    <link href="content/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-
     <title>Home Page</title>
+    <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
 </head>
 <body>
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -45,7 +46,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
-
                 <h1>User Profile</h1>
                 <form id="form1" runat="server">
                     <div class="form-group">
@@ -68,13 +68,14 @@
                         <asp:TextBox CssClass="form-control" ID="FullNameTextBox" runat="server"></asp:TextBox>
                     </div>
                 </form>
-            </div>
 
+            </div>
         </div>
     </div>
 
-    <!-- Javascripts -->
-    <script src="scripts/jquery-2.2.3.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 </body>
 </html>

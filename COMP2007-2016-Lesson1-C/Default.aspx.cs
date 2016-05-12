@@ -5,13 +5,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace COMP2007_2016_Lesson1_C
+namespace COMP2007_S2016_Lesson1C
 {
     public partial class Default : System.Web.UI.Page
     {
-        protected void submitbutton_Click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-            FullNameTextBox.Text = FirstNameTextBox.Text + " " + LastNameTextBox.Text;
+
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + " " + LastNameTextBox.Text.ToString();
         }
     }
 }

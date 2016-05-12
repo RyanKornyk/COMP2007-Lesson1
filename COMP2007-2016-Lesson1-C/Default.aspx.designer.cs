@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_2016_Lesson1_C {
+namespace COMP2007_S2016_Lesson1C {
     
     
     public partial class Default {
